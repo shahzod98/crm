@@ -1,0 +1,23 @@
+vue + django
+
+vue o'rnatish:
+"crm" papka yaratilib ichida qilinadi
+- npm install -g @vue/cli
+- vue create crm_vue
+-- cd crm_vue     // crm_vue papkasini ichiga kirib olinadi
+- npm install bulma
+- npm install bulma-toast
+- npm install axios
+- npm run serve    // vue serverni ishga tushurish
+
+django o'rnatish:
+- pip install virtualenv   /or/   python -m venv venv     // venv nomli virtual papkasi yaratiladi
+- virtualenv venv   // venv nomli virtual papkasi yaratiladi
+- .\venv\Scripts\activate     // activate faylini ishga tusgurish orqali virtual papka aktivlashtiriladi
+- pip install django
+- pip install django-rest-framework
+- pip install django-cors-headers      /or/   python -m pip install django-cors-headers --upgrade
+- pip install djoser
+djangoda crm_django nomli proekt yaratish:
+- django-admin startproject crm_django
+- python manage.py runserver    // django serverni ishga tushurish
