@@ -1,5 +1,5 @@
 ok
-
+ok
 // (venv) ishga tushurish uchun
 // Set-ExecutionPolicy RemoteSigned -Scope Process        
         
